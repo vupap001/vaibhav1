@@ -38,7 +38,7 @@ namespace WebApplication1
         {
             try
             {
-                string imagePath = "/Upload/BannerImage/";
+                string imagePath = "~/Upload/BannerImage/";
                 string imageSource = SiteBaseUrl + "Upload/BannerImage/";
                 string PhotoFilePath = Server.MapPath(imagePath);
                 string divSlider = @"<ul class='slides'>";
@@ -83,7 +83,7 @@ namespace WebApplication1
         {
             if (CheckValidImage(fluImage))
             {
-                fluImage.PostedFile.SaveAs("/Upload/BannerImage/" + fluImage.FileName);
+                fluImage.PostedFile.SaveAs(MapPath("~") + "/Upload/BannerImage/" + fluImage.FileName);
                 ShowErrorMsg("success", "Image Uploaded Successfully");
             }
         }
