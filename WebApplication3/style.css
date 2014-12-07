@@ -1,0 +1,243 @@
+/* CSS Document by Dieter Schneider | www.csstemplateheaven.com */
+
+* {padding: 0;
+    margin-right: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/**************************************** Main structure ****************************/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+#container {
+	width: 831px;
+	margin: auto 15px auto 219px;
+	font-size: 1.2em;
+			}
+
+#top_nav {
+	background-image: url(images/nav_top.jpg);
+	height: 31px;
+	padding-top: 15px;
+	text-align: right;
+	padding-right: 20px;
+	color: #7E0200;
+}
+
+#header {
+	/*background-image: url(images/header.jpg);*/
+	height: 270px;
+    background-color:rgb(154, 2, 1);
+    margin-left: 6px;
+margin-right: 6px;
+    width: 823px;
+}
+
+#main_nav {
+	background-image: url('images/main_nav.jpg');
+	height: 56px;
+	padding-left: 9px;
+    width: 822px;
+}
+
+#contentwrapper {
+	background-image: url(images/contentwrapper.jpg);
+	background-repeat: repeat-y;
+}
+
+#left {
+	float: left;
+	width: 160px;
+	padding-top: 15px;
+	margin-left: 15px!important;
+	margin-left: 7px;
+	font-size: 0.9em;
+}
+
+#right {
+	float: right;
+	width: 147px;
+	padding-top: 15px;
+	margin-right: 15px!important;
+	margin-right: 7px;
+	font-size: 0.9em;
+    margin-left: 0px;
+}
+
+
+#content {
+	margin-right: 200px;
+	margin-left: 200px;
+	padding: 15px 0;
+}
+
+#footer {
+	background-image: url('images/footer.jpg');
+	height: 27px;
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
+    width: 831px;
+}
+
+/**************************************** text, images, lists ****************************/
+
+img.float_left {
+	float: right;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    width: 144px;
+}
+
+p.topnav, .copyright {
+	margin: 0;
+}
+
+h1 {
+	color: #FFFFFF;
+	padding-top: 110px;
+	padding-left: 130px;
+	font-size: 3em;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 1em;
+	color: #9A0500;
+	background-image: url(images/h2.jpg);
+	background-repeat: repeat-x;
+	height: 42px;
+	padding-top: 3px;
+	margin-bottom: 20px;
+	padding-left: 8px;
+}
+
+h3 {
+	background-image: url(images/sidebar_heading.jpg);
+	font-size: 1em;
+	height: 19px;
+	width: 135px;
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-left: 24px;
+}
+
+h4 {
+	background-image: url(images/sidebar_heading_2.jpg);
+	font-size: 1em;
+	height: 19px;
+	width: 125px;
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 24px;
+}
+
+dl {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+dt {
+	border-bottom: 1px solid white;
+	padding: 3px;
+	margin-bottom: 5px;
+	background-image: url('images/dt_bottom.gif');
+	background-repeat: repeat-x;
+	background-position: 50% bottom;
+    width: 141px;
+}
+
+dd {
+	margin-bottom: 12px;
+    height: 86px;
+    width: 126px;
+    margin-left: 22px;
+}
+
+.news:first-letter {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/**************************************** Menu ****************************/
+
+#navcontainer ul
+{
+	color: White;
+	float: left;
+	width: 85%;
+	height: 53px;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+	padding: 18px 1em;
+	height: 18px;
+	color: #720201;
+	text-decoration: none;
+	float: left;
+	background-image: url('images/menu_right_border.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+    width: 80px;
+}
+
+#navcontainer ul li a:hover
+{
+	color: #fff;
+	background-image: url(images/menu_hover.jpg);
+	background-repeat: repeat-x;
+}
+
+/**************************************** Contact form ****************************/
+
+label {
+	font-style: italic;
+}
+
+form.contact_us {
+	width: 163px;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+input.fields_contact_us {display: block;
+        width: 155px;
+        background: #FFFFFF;
+		border-top: 1px solid #E5E3E4;
+		border-left: 1px solid #E5E3E4;
+		border-bottom: 1px solid #EDEDED;
+		border-right: 1px solid #EDEDED;
+		margin-top: 3px;
+	    margin-bottom: 3px;}
+
+textarea {width: 146px;
+          background: #FFFFFF;
+		  border-top: 1px solid #E5E3E4;
+		  border-left: 1px solid #E5E3E4;
+		  border-bottom: 1px solid #EDEDED;
+		  border-right: 1px solid #EDEDED;
+		  display: block;
+          margin-top: 3px;
+}
+
+.submit_button_contact {
+	margin-top: 15px;
+	margin-left: 41px;
+	padding: 2px;
+	background-color: #910603;
+	cursor: pointer;
+	color: #FFFFFF;
+    width: 91px;
+}
