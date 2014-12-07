@@ -97,8 +97,14 @@
     <Content Include="images\sidebar_heading.jpg" />
     <Content Include="images\sidebar_heading_2.jpg" />
     <Content Include="jquery-ui-timepicker-addon-js.js" />
+    <Content Include="js\jquery-1.8.2-min.js" />
+    <Content Include="js\jquery.flexslider.js" />
     <Content Include="Login.aspx" />
     <Content Include="NonStudentReg.aspx" />
+    <Content Include="obj\Debug\TempPE\Model1.Designer.cs.dll" />
+    <Content Include="obj\Debug\WebApplication1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\WebApplication1.dll" />
+    <Content Include="obj\Debug\WebApplication1.pdb" />
     <Content Include="PasswordReset.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="Pictures\camera.png" />
@@ -109,6 +115,8 @@
     <Content Include="Scripts\calendar-en.min.js" />
     <Content Include="bin\WebApplication1.dll.config" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache" />
     <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
