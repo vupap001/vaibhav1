@@ -38,7 +38,7 @@ namespace WebApplication1
         {
             try
             {
-                string imagePath = "~/Upload/BannerImage/";
+                string imagePath = "/Upload/BannerImage/";
                 string imageSource = SiteBaseUrl + "Upload/BannerImage/";
                 string PhotoFilePath = Server.MapPath(imagePath);
                 string divSlider = @"<ul class='slides'>";
